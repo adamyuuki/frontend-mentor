@@ -1,0 +1,57 @@
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+  background-image: url("images/bg-pattern-top.svg");
+}
+
+
+h1{
+  margin: 0;s
+}
+
+table{
+  margin: auto;
+}
+
+td{
+  width: 90px;
+  text-align: center;
+}
+
+.img-top{
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.container{
+  border: solid;
+  width: 300px;
+  margin:auto;
+  margin-top: 300px;
+  border-radius: 10px;
+
+}
+
+.middle-container{
+  margin: auto;
+  align-self: center;
+  text-align: center;
+  background-color: white;
+}
+
+.bottom-container{
+  background-color: white;
+}
+
+.negrito{
+  font-weight: bold;
+}
+
+.menor{
+  font-weight: lighter;
+}
