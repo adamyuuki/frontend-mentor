@@ -10,42 +10,58 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
 
   <div class="container">
+    <div class="bg-circles">
+      <img class="bg-circles--circle1" src="images/bg-pattern-top.svg" alt="topbg">
+      <img class="bg-circles--circle2" src="images/bg-pattern-bottom.svg" alt="bottombg">
+    </div>
 
+    <div class="card">
+      <header class="card_header">
 
-  <div class="top-container">
-    <img class="img-top" src="images/bg-pattern-card.svg" alt="">
-  </div>
-  <div class="middle-container">
-    <h1>Victor Crest</h1> 
-    26 <br>
-    London
-  </div>
-  <div class="bottom-container">
-    <table>
-      <tr class="negrito">
-          <td>80K</td>
-          <td>803K</td>
-          <td>1.4K</td>
-      </tr>
-      <tr class="menor">
-          <td>Followers</td>
-          <td>Likes</td>
-          <td>Photos</td>
-      </tr>
-    </table>
+      </header>
+      <div class="card_photo">
+        <img src="images/image-victor.jpg" alt="victor-image" class="card_photo-1">
+      </div>
+      <div class="card_main">
+        <div class="card_main_info">
+          <p class="card_main--name">Victor Crest <span class="card_main--name-age">26</span> </p>
+          <p class="card_main--place">London</p>
+        </div>
+        <div class="card_main--social-media">
+          <ul class="card_list">
+            <li class="card_list--items">
+              <p class="card_list--items-1">80K</p>
+              <p class="card_list--items-2">Followers</p>
+            </li>
+            <li class="card_list--items">
+              <p class="card_list--items-1">803K</p>
+              <p class="card_list--items-2">Likes</p>
+            </li>
+            <li class="card_list--items">
+              <p class="card_list--items-1">1.4K</p>
+              <p class="card_list--items-2">Photos</p>
+            </li>
+          </ul>
+        </div>
 
-  </div>
+      </div>
+
+    </div>
+
 </div>
 
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Adam Oyama</a>.
   </div>
 </body>
 </html>
